@@ -20,12 +20,12 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final int HEARDS[] = new int[]{
-            R.mipmap.heart_1,
-            R.mipmap.heart_2,
-            R.mipmap.heart_3,
-            R.mipmap.heart_4,
-            R.mipmap.heart_5,
-            R.mipmap.heart_6
+            R.mipmap.mint_heart_1,
+            R.mipmap.mint_heart_2,
+            R.mipmap.mint_heart_3,
+            R.mipmap.mint_heart_4,
+            R.mipmap.mint_heart_5,
+            R.mipmap.mint_heart_6
     };
     private SparseArray<SoftReference<Bitmap>> mBitmapCacheArray = new SparseArray<>();
     private HiPraiseAnimationView mHiPraiseAnimationView;
